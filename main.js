@@ -35,6 +35,7 @@ window.onload = (event) => {
     regBas(4, 'quaternary', 'Quaternary');
     regBas(6, 'heximal', 'Heximal');
     regBas(12, 'dozenal', 'Dozenal');
+    regBas(16, 'hexadecimal', 'Hexadecimal');
     regBas(20, 'vigesimal', 'Vigesimal');
     reflect(0);
 };
