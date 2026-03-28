@@ -31,8 +31,10 @@ const reflect = (n = 0, ex) => {
 window.onload = (event) => {
     regBas([3, {de: 2}], 'unseminary', 'Unseminary');
     regBas(2, 'binary', 'Binary');
+    regBas([5, {de: 2}], 'biseminary', 'Biseminary');
     regBas(3, 'ternary', 'Ternary');
     regBas(4, 'quaternary', 'Quaternary');
+    regBas(5, 'quinary', 'Quinary');
     regBas(6, 'heximal', 'Heximal');
     regBas(12, 'dozenal', 'Dozenal');
     regBas(16, 'hexadecimal', 'Hexadecimal');
